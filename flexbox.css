@@ -32,17 +32,22 @@ h1, h2 {
 header {
   background: skyblue;
   flex: 1 0 100%;
+  order: 1;
 }
 main {
   background: slategray;
+  order: 3;
 }
 nav {
   background: cadetblue;
+  order: 2;
 }
 aside {
   background: seagreen;
+  order: 4;
 }
 footer {
   background: darkslateblue;
   flex: 1 0 100%;
+  order: 5;
 }
