@@ -37,14 +37,17 @@ header {
 main {
   background: slategray;
   order: 3;
+  flex: 1 1 500px;
 }
 nav {
   background: cadetblue;
   order: 2;
+  flex: 1 0 200px;
 }
 aside {
   background: seagreen;
   order: 4;
+  flex: 1 0 200px;
 }
 footer {
   background: darkslateblue;
