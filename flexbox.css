@@ -25,10 +25,13 @@ h1, h2 {
 .container {
   color: white;
   font-family: helvetica, arial, sans-serif;
+  display: flex ;
+  flex-wrap: wrap;
 }
 
 header {
   background: skyblue;
+  flex: 1 0 100%;
 }
 main {
   background: slategray;
@@ -41,4 +44,5 @@ aside {
 }
 footer {
   background: darkslateblue;
+  flex: 1 0 100%;
 }
